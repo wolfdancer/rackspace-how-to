@@ -38,7 +38,7 @@ interface:
 
         sudo apt-get install npm
 
-5. Navigate to the statsd directory by typing the following:
+5. Navigate to the statsd directory by typing the following  (assuming the path is /path/to/statsd):
 
         cd /path/to/statsd
 
