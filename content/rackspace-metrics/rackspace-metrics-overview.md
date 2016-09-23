@@ -10,7 +10,7 @@ last_modified_by: Stephanie Fillmon
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
-**To sign up for Rackspace Metrics, please go to http://go.rackspace.com/metrics**
+**To sign up for Rackspace Metrics, please go to <http://go.rackspace.com/metrics>**
 
 Rackspace Metrics is a multi-tenant software-as-a-service (SaaS) product
 that offers a flexible and affordable platform for storing and serving
