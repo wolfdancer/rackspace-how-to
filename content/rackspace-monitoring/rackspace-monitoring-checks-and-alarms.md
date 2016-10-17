@@ -16,7 +16,7 @@ Because a check does not trigger any alerts by itself, collecting more data is a
 
 Rackspace Monitoring uses *alarms* to analyze the data that is collected by a check. The alarm criteria contains the logic to process this data and convert the alarm into one of the three states: OK, WARNING, and CRITICAL.
 
-## Where to configure checks and alarms
+### Where to configure checks and alarms
 
 You can configure monitoring checks and alarms in the following web portals:
 
@@ -25,7 +25,7 @@ You can configure monitoring checks and alarms in the following web portals:
 
 The major groups of checks are remote check, agent checks, and hostinfo checks. The following section describes the useful details about the remote checks. For more information about all the check types, see the [Check types reference](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/) section of the Rackspace Monitoring API documentation.
 
-## Poll-based Remote checks
+### Poll-based Remote checks
 
 Remote monitoring continually checks your systems and platforms for external availability by testing connectivity from regional zones deployed throughout our global data centers. These regional zones are called monitoring zones, deployed in the six data centers around the globe. You can choose any zones from which to perform a remote check. Each selected monitoring zone performs the configured remote check, and the collected data from each monitoring zone is used to evaluate the alarm criteria. You receive notifications only if the observations from the monitoring zones reach quorum on the resulting alarm state. As a result, you can filter out cases where a single monitoring zone is having an isolated issue connecting to your server.
 
@@ -44,12 +44,12 @@ From the metrics that Rackspace has collected in the system, we did noticed, tha
 | IAD | IAD, ORD, DFW |
 | ORD | ORD, IAD, DFW |
 
-## Agent-based Performance Checks
+### Agent-based Performance Checks
 You can get deep insight into your resources—including servers and database instances (anything with a standard OS and outgoing network connectivity). Rackspace Monitoring agent is lightweight with a small memory footprint, using around 5MB of memory and rarely consuming more than 2% CPU time.  In addition, automatic upgrades means your agent is always up to date with the latest features, enhancements, bug fixes and security patches.  Agent Health monitoring means that the connectivities of your monitoring agents are also being monitored automatically (in Limited Availability as of September 2016).
 
 For complete list of agent checks, see the [Agent check types references](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#agent-check-types) section of the Rackspace Monitoring API documentation.
 
-## On-demand Hostinfo Checks
+### On-demand Hostinfo Checks
 Through API and CLI, you can conduct advanced host interrogation from wherever you are, without the need to log into the server. You can push these data into an indexing service stack and gain instant view of everything you need to know about your infrastructure.
 
 * **System configurations**. Confirm the operating system version, check out available network and disk devices, mounted filesystem, and available CPU and memory.
@@ -58,7 +58,7 @@ Through API and CLI, you can conduct advanced host interrogation from wherever y
 
 For complete list of hostinfo checks, see [Hostinfo check types references](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#hostinfo-checks) section of the Rackspace Monitoring API documentation.
 
-## Alarms and Notifications
+### Alarms and Notifications
 Rackspace Monitoring uses alarms to evaluate the metrics of a check and decide if a notification plan should be executed. It is the primary way to describe exactly what you want to be alerted on.
 
 Check out [Alert Triggering and Alarms](https://developer.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/alert-triggers-and-alarms/) documentation for details on alerting including an explanation of the alert flow, the alarm language, the policies that you can create using alarms and example best practices. 
@@ -71,7 +71,7 @@ The system determines the alarm state through quorum-based voting from the monit
 
 You can also tune the sensitivity level of the alarms by setting the **consecutiveCount** attribute. For example, if you want to run the check every minute, but want to be notified only if the monitoring zones can't ping the server three times in a row (which is three minutes if your check period is 60 seconds), you can add `":set consecutiveCount=3"` to the beginning of the alarm criteria to achieve the desired result.
 
-### Email notifications
+#### Email notifications
 
 Email notifications are designed to be actionable and readily understandable. In the notifications, older observations not included in the calculation are dimmed. As a result, you always see the number of observations that is consistent with the configuration of the checks, and can identify the ones that contributed to the notification.
 
