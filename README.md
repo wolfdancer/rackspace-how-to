@@ -8,18 +8,16 @@ The content of this repository builds the How-To website.
 
 https://support.rackspace.com/how-to/
 
-### How-to ninja support schedule 
+### How-to ninja support schedule
 
-For more information see: https://one.rackspace.com/display/devdoc/How-To+support+ninja
-
-- June 27 - July 1: Renée
-- July 4 - 8: Stephanie
-- July 11 -15: Nate
-- July 18 - 22:
-- July 25 - 29:
-- Aug 1 - 5: Renée
-- Aug 8 - 12:
-- Aug 15 - 19:
-- Aug 22 - 26:
-- Aug 29 - Sep 2:Renée
-
+- Sep 19 - 23: Stephanie
+- Sep 26 - 30: Renée
+- Oct 3 - 7: Renée
+- Oct 10 - 14: Nate
+- Oct 17 - 21: Stephanie
+- Oct 24 - 28: Stephanie
+- Oct 31 - Nov 4: Nate
+- Nov 7 - 11: Nate
+- Nov 14 - 18: Renée
+- Nov 21 - 25: Cat
+- Nov 28 - Dec 2: Nate

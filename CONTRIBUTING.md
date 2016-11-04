@@ -1,8 +1,22 @@
+- [Contributing to the Rackspace How-To content repository](#contributing-to-the-rackspace-how-to-content-repository)
+	- [Getting started with GitHub](#getting-started-with-github)
+		- [Create a fork of this repository](#create-a-fork-of-this-repository)
+		- [Keeping your fork up to date](#keeping-your-fork-up-to-date)
+	- [Creating and changing articles](#creating-and-changing-articles)
+		- [Create an article](#create-an-article)
+		- [Edit an article](#edit-an-article)
+		- [Make a change to a PR](#make-a-change-to-a-pr)
+		- [Request an article change](#request-an-article-change)
+	- [Writing guidelines](#writing-guidelines)
+	- [Support and feedback](#support-and-feedback)
+
 ## Contributing to the Rackspace How-To content repository
 
 This file describes the general process for maintaining source code for content published at [https://support.rackspace.com/how-to/](https://support.rackspace.com/how-to/).
 
-Content is grouped into one directory per product. Each directory contains one file per article.
+See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be) for a brief video overview of how to edit articles on the How-To support network.
+
+**Note**: If you already have a GitHub account, you can quickly edit an existing article by clicking on the Edit This Article button on the left-hand side of the page.
 
 ### Getting started with GitHub
 
@@ -30,6 +44,8 @@ Because your forked copy of the repository is not live, you need to periodically
 
 Use the following instructions to create a new article, make edits to an existing one, or suggest edits via an issue.
 
+Articles are grouped into one directory per product. Each directory contains one file per article.
+
 #### Create an article
 
 Follow these steps to create a new article within a product folder of the **rackerlabs/rackspace-how-to** repo.
@@ -44,21 +60,14 @@ Follow these steps to create a new article within a product folder of the **rack
 
            ---
            permalink: title-of-article/
-           
+           audit_date: 2016-08-22
            title: Checking cloud status
-
            type: article
-
            created_date: '2016-01-29'
-
            created_by: Rosie Contreras
-
            last_modified_date: '2016-01-29'
-
            last_modified_by: Rosie Contreras
-
            product: Cloud Servers
-
            product_url: cloud-servers
            ---
 5. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
