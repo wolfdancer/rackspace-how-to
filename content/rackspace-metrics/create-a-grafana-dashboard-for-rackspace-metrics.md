@@ -83,7 +83,7 @@ To access the Grafana dashboard, perform the following steps:
 3.  Type the username and password that were displayed after you created
     the stack and click **Log In**.
 
-4.  Create your Grafana dashboard from Rackspace Monitoring data by pasting the [json content from here](https://github.com/rackspace-orchestration-templates/grafana/blob/master/dashboards/default_dashboard.json).
+4.  Create your Grafana dashboard from Rackspace Monitoring data by pasting the JSON code found in this [orchestration template](https://github.com/rackspace-orchestration-templates/grafana/blob/master/dashboards/default_dashboard.json).
 
     <img src="{% asset_path rackspace-metrics/create-a-grafana-dashboard-for-rackspace-metrics/grafana-home-page_0.png %}" width="432" height="284" />
 
