@@ -22,6 +22,8 @@ Metrics by using a custom Cloud Orchestration template. It also provides
 instructions on how to upload a Grafana dashboard for a database
 instance.
 
+If you would prefer to set it up in another way or upgrade your existing Grafana instance, you can check out the project wiki page: https://github.com/rackerlabs/blueflood/wiki/Grafana-3.0-with-Blueflood-datasource.
+
 ### Deploy the Grafana instance for Rackspace Metrics
 
 To create a Grafana dashboard, complete the following steps:
