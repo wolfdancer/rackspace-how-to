@@ -89,10 +89,8 @@ article.
 
 The Agent Health Monitoring feature is initially offered at Limited
 Availability (LA). If you are interested in using this feature, submit a
-comment that expresses your interest for this [feedback forum
-item](https://feedback.rackspace.com/forums/298164-infrastructure-developer-tools/suggestions/6818178-notify-the-user-when-agent-is-disconnected).
-The Rackspace Monitoring team will contact you with detailed
-information.
+ticket to express your interest for this feature. The Rackspace Monitoring 
+team will contact you with detailed information.
 
 The agent.health check and alarm will be created automatically on all
 the connected agents when the feature is released. The notification plan
